@@ -18,8 +18,7 @@
     <div class="headerBG">
         <h1 class="headerTitle">To-Do List:</h1>
     </div>
-    <button class="buttonAdd" on:click={addBar} style="position:relative; margin-left: calc(50% - 13.5vw);">
-        <!-- Thick‐lined Plus Icon as SVG -->
+    <button class="buttonAdd" on:click={addBar} style="position:relative; margin-left: calc(50% - 13.5vw); align-items: center; justify content: center;">
         <svg
         width="64"
         height="64"
